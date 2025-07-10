@@ -14,17 +14,6 @@ Dockan est une alternative moderne à Docker, conçue pour l’auto-hébergement
 - **CLI complète** : `run`, `build`, `list`, `init`, `export`, `import`, `help`
 - **Documentation et exemples** inclus
 
-## 📚 Documentation
-- [Guide d’installation](./index.html#install)
-- [Créer une image Dockan](./index.html#usage)
-- [Exemples](./index.html#exemples)
-- [FAQ](./index.html#faq)
-- [Format d’image](./format.md)
-
-## 🖼️ Aperçu du projet
-- [Logo Dockan](./dockan-logo.svg)
-- [Page d’accueil moderne](./index.html)
-- [Exemples d’images Dockan](./exemples/python.md)
 
 ## 🤝 Contribuer
 - Forkez le projet sur [GitHub](https://github.com/Dockan-Conteneurisation-libre/Dockan)
