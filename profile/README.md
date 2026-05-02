@@ -6,7 +6,7 @@
 
 Dockan est une alternative moderne à Docker, conçue pour l’auto-hébergement, l’expérimentation, l’éducation et la simplicité. Ce site est la vitrine officielle du projet Dockan, hébergé sur GitHub Pages.
 
-## 🚀 Fonctionnalités principales
+##  Fonctionnalités principales
 - **Sans daemon** : pas de service en arrière-plan
 - **Format d’image ouvert** : chaque image est un dossier `.dockan/` ou une archive `.tar.gz`
 - **Isolation légère** : firejail, chroot, systemd-nspawn (auto-détection)
@@ -15,7 +15,7 @@ Dockan est une alternative moderne à Docker, conçue pour l’auto-hébergement
 - **Documentation et exemples** inclus
 
 
-## 🤝 Contribuer
+##  Contribuer
 - Forkez le projet sur [GitHub](https://github.com/Dockan-Conteneurisation-libre/Dockan)
 - Proposez vos idées, partagez vos images Dockan !
 
