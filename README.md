@@ -4,7 +4,7 @@
   <img src="./dockan-logo.svg" alt="Dockan logo" width="120" height="120">
 </p>
 
-Dockan est une alternative moderne à Docker, conçue pour l’auto-hébergement, l’expérimentation, l’éducation et la simplicité. Ce site est la vitrine officielle du projet Dockan, hébergé sur GitHub Pages.
+Dockan est une alternative moderne à Docker, conçue pour l’auto-hébergement, et la simplicité. 
 
 ##  Fonctionnalités principales
 - **Sans daemon** : pas de service en arrière-plan
