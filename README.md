@@ -1,77 +1,78 @@
-# Dockan — Conteneurisation libre, sans daemon, sans cloud
+# Dockan - Free Containerization, Without a Daemon, Without Cloud Lock-In
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Dockan-Conteneurisation-libre/Dockan/main/docs/dockan-logo.svg" alt="Dockan logo" width="120">
 </p>
 
-Dockan est un écosystème libre de conteneurisation pensé pour l’auto-hébergement, l’expérimentation, l’éducation et la simplicité.
+Dockan is a free and open containerization ecosystem designed for self-hosting, experimentation, education, and simplicity.
 
-L’objectif est clair : proposer une alternative moderne à Docker, sans daemon obligatoire, sans cloud imposé, avec des images faciles à comprendre, partager, sauvegarder et installer.
+The goal is clear: provide a modern alternative to Docker, without a required daemon, without imposed cloud services, and with images that are easy to understand, share, back up, and install.
 
-## Projets principaux
+## Main Projects
 
 ### Dockan
 
-Le moteur principal et la CLI.
+The main engine and CLI.
 
-- conteneurs sans daemon permanent
-- images au format ouvert
-- commandes `run`, `build`, `compose`, `images`, `volume`, `network`, `deps`, `update`
-- isolation légère avec auto-détection
-- gestion des volumes, réseaux, healthchecks et stacks
+- containers without a permanent daemon
+- open image format
+- `run`, `build`, `compose`, `images`, `volume`, `network`, `deps`, and `update` commands
+- lightweight isolation with auto-detection
+- volume, network, healthcheck, and stack management
 
-Repo : https://github.com/Dockan-Conteneurisation-libre/Dockan
+Repo: https://github.com/Dockan-Conteneurisation-libre/Dockan
 
 ### Dockan Panel
 
-Interface web d’administration pour gérer Dockan depuis un navigateur.
+A web administration interface to manage Dockan from a browser.
 
-- dashboard local
-- gestion des conteneurs, images, volumes et réseaux
-- terminal live dans les conteneurs
-- gestion des stacks `dockan.yml`
-- installation de dépendances système
-- mise à jour de Dockan et du panel
-- intégration Dockan Store
-- PWA installable
+- local dashboard
+- container, image, volume, and network management
+- live terminal inside containers
+- `dockan.yml` stack management
+- system dependency installation
+- Dockan and panel updates
+- Dockan Store integration
+- installable PWA
 
-Repo : https://github.com/Dockan-Conteneurisation-libre/Dockan-Panel
+Repo: https://github.com/Dockan-Conteneurisation-libre/Dockan-Panel
 
 ### Dockan Store
 
-Catalogue d’applications prêtes à installer avec Dockan.
+A catalog of ready-to-install applications for Dockan.
 
-- apps auto-hébergées prêtes à l’emploi
-- images prébuildées
-- packs complets ou par application
-- installation simple depuis CLI ou Panel
-- exemples : WordPress, Nextcloud, Gitea, Matomo, Grafana, Vaultwarden, Static Site, etc.
+- ready-to-use self-hosted apps
+- prebuilt images
+- complete packs or per-app downloads
+- simple installation from the CLI or Panel
+- examples: WordPress, Nextcloud, Gitea, Matomo, Grafana, Vaultwarden, Static Site, and more
 
-Repo : https://github.com/Dockan-Conteneurisation-libre/Dockan-store  
-Site : https://dockan-conteneurisation-libre.github.io/Dockan-store/
+Repo: https://github.com/Dockan-Conteneurisation-libre/Dockan-store  
+Site: https://dockan-conteneurisation-libre.github.io/Dockan-store/
 
-## Fonctionnalités principales
+## Main Features
 
-- **Sans daemon** : pas de service lourd obligatoire en arrière-plan
-- **Sans cloud imposé** : les images se partagent librement
-- **Format ouvert** : une image Dockan est un dossier ou une archive `.tar.gz`
-- **Simple à inspecter** : fichiers lisibles, structure claire
-- **Auto-hébergement** : pensé pour serveurs personnels, homelabs et petites infrastructures
-- **Panel web** : administration simple depuis navigateur
-- **Store d’apps** : installation d’applications en quelques clics
-- **Multi-distribution Linux** : gestion progressive des dépendances selon le système
-- **Éducation** : comprendre la conteneurisation sans boîte noire
+- **Daemonless**: no heavy background service required
+- **No cloud lock-in**: images can be shared freely
+- **Open format**: a Dockan image is a folder or a `.tar.gz` archive
+- **Easy to inspect**: readable files and a clear structure
+- **Self-hosting**: designed for personal servers, homelabs, and small infrastructure
+- **Web panel**: simple administration from a browser
+- **App store**: install applications in a few clicks
+- **Multi-distribution Linux**: progressive dependency handling depending on the system
+- **Education**: understand containerization without a black box
 
 ## Vision
 
-Dockan veut rendre la conteneurisation plus accessible, plus transparente et plus libre.
+Dockan aims to make containerization more accessible, more transparent, and more free.
 
-Le projet ne cherche pas à cacher le système derrière une grosse plateforme fermée. Il cherche au contraire à rendre les images, les fichiers, les volumes, les réseaux et les commandes compréhensibles.
+The project does not try to hide the system behind a large closed platform. Instead, it aims to make images, files, volumes, networks, and commands understandable.
 
-Dockan est fait pour celles et ceux qui veulent héberger, apprendre, partager et garder le contrôle.
+Dockan is made for people who want to host, learn, share, and stay in control.
 
-## Installation rapide
+## Quick Install
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Dockan-Conteneurisation-libre/Dockan/main/scripts/install.sh | sh
 dockan version
+```
