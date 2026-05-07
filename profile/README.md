@@ -53,14 +53,11 @@ Site: https://dockan-conteneurisation-libre.github.io/Dockan-store/
 
 ### Dockan Windows
 
-Native Windows port of Dockan.
-
-Website
-
 Dockan Windows is the native Windows port of Dockan.
 
 This repository is copied from the Linux Dockan codebase, then adapted to use Windows container APIs and Windows packaging. The target is the same Dockan CLI workflow on Windows, backed by HCS, HNS, mapped directories, scheduled tasks, and Windows container image metadata.
 
+Repo : https://github.com/Dockan-Conteneurisation-libre/Dockan-Windows
 
 
 ## Main Features
